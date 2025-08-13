@@ -21,5 +21,14 @@ public class Exemplo06 {
         // "19%%" YES
 
         System.out.println(mensagem);
+
+        String texto = """
+                Meu nome é Anne
+                Tenho 23 anos
+                Sou legal
+                HAHAHAHA
+                """;
+
+        System.out.println(texto);
     }
 }
