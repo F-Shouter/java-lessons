@@ -11,5 +11,8 @@ public class Exemplo02 {
         }else{
             System.out.println("Nada...");
         }
+
+        String mensagem = idade >= 18 ? "Maior" : "Menor";
+        System.out.println(mensagem);
     }
 }
