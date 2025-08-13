@@ -5,7 +5,7 @@ public class Exemplo03 {
         String valor1 = "Manoel";
         String valor2 = "Manoel";
 
-        if(valor1.equals(valor2)){
+        if(valor1.equalsIgnoreCase(valor2)){
             //.equals para objetos, == para primitivos
             System.out.println("valores iguais");
         }else{
