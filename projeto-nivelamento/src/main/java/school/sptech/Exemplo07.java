@@ -1,4 +1,4 @@
-package school.sptech;
+    package school.sptech;
 
 import java.util.concurrent.ThreadLocalRandom;
 
