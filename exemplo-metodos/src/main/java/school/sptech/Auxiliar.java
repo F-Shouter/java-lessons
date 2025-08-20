@@ -6,8 +6,13 @@ public class Auxiliar {
     }
 
     // Sobrecarga de metodos
-    // com mesmo nome, mas diferentes argumentos
+    // com mesmo nome, mas diferentes tipos e quantidades de argumentos
     void exibirBomDia(String nome) {
         System.out.println("Bom dia, " + nome);
     }
+
+    // Não funciona
+    //void exibirBomDia(String local) {
+    //    System.out.println("Bom dia, " + local);
+    //}
 }
