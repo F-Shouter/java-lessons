@@ -5,5 +5,6 @@ public class main {
         Auxiliar auxiliar = new Auxiliar();
         auxiliar.exibirBomDia();
         auxiliar.exibirBomDia("Anne Yukari Yamasaki");
+        auxiliar.exibirBomDia("Ricardo", "Suzano - SP");
     }
 }

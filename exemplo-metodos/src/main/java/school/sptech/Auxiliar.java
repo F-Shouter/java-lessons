@@ -15,4 +15,9 @@ public class Auxiliar {
     //void exibirBomDia(String local) {
     //    System.out.println("Bom dia, " + local);
     //}
+
+    void exibirBomDia(String nome, String local) {
+        System.out.println(String.format("Bom dia %s," +
+                "Você está em: %s", nome, local));
+    }
 }
