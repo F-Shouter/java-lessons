@@ -20,4 +20,17 @@ public class Auxiliar {
         System.out.println(String.format("Bom dia %s," +
                 "Você está em: %s", nome, local));
     }
+
+    Double calcularMedia(Double n1, Double n2) {
+        Double media = (n1 + n2) /2.0;
+        return media;
+    }
+
+    void validarIdade(Integer idade) {
+        if(idade < 0){
+            System.out.println("Inválido!!!");
+            return; // não continua o que estiver embaxo
+        }
+        System.out.println("Válido!!!");
+    }
 }
